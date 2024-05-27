@@ -1,0 +1,111 @@
+/* || IMPORTS*/
+/*Google font Open Sans*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*Google font Roboto Mono*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/*Google font Playfair Display*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+/* || RESET */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* || VARIABLES*/
+:root {
+    /* FONTS */
+    --FF-OPEN-SANS: "Open Sans", sans-serif;
+    --FF-ROBOTO-MONO: "Roboto Mono", monospace;
+    --FF-PLAYFAIR-DISPLAY: "Playfair Display", serif;
+    --FS: 1.5rem;
+    --FS-XL: 3rem;
+
+    /*  COLORS */
+    --DARK-BLUE-COLOR: hsl(231, 54%, 35%);
+    --LIGH-BLUE-COLOR: hsla(231, 54%, 35%, 0.486);
+    --LIGHT-COLOR: whitesmoke;
+    --SPAM-BG-COLOR: rgba(255, 255, 0, 0.637);
+    --PAPAYA-COLOR: papayawhip;
+
+    /* GENERAL */
+    --PADDING: 0.75rem;
+}
+
+body {
+    font: var(--FS) var(--FF-ROBOTO-MONO);
+    background-color: var(--PAPAYA-COLOR);
+    padding: var(--PADDING);
+}
+
+h1 {
+    color: var(--DARK-BLUE-COLOR);
+    padding: var(--PADDING);
+}
+
+h2 {
+    color: var(--LIGH-BLUE-COLOR);
+    padding: var(--PADDING);
+}
+
+p {
+    padding: var(--PADDING);
+}
+
+.section-01 p {
+    color: hsla(0, 91%, 22%, 0.521)
+}
+
+.section-02 p {
+    font-style: italic;
+}
+
+.spam-sec-01 {
+    background-color: var(--SPAM-BG-COLOR);
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.spam-sec-03 {
+    background-color: var(--SPAM-BG-COLOR);
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.css-border-title {
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    padding: 2rem 2rem 2rem 0.5rem;
+}
+
+.section-04 p {
+    margin-bottom: 2rem;
+}
+
+.section-04 p:nth-child(2) {
+    border: 2px solid #000;
+}
+
+.section-04 p:nth-child(3) {
+    border: 2px dashed rgba(16, 87, 16, 0.705);
+}
+
+.section-04 p:nth-child(4) {
+    border: 4px double rgba(87, 24, 16, 0.705);
+}
+
+.section-04 p:nth-child(5) {
+    border: 4px dotted rgba(15, 17, 109, 0.705);
+}
+
+.span-border {
+    background-color: var(--SPAM-BG-COLOR);
+    font-style: italic;
+}
