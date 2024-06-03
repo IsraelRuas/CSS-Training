@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+
+}
+
+header {
+    background-color: bisque;
+    border: 1px solid #333;
+    padding: 1rem;
+    overflow: auto;
+    /*  Both does the same function */
+    display: flow-root;
+}
+
+.block {
+    width: 15vw;
+    height: 15vw;
+    background-color: black;
+    color: #FFF;
+    padding: 1rem;
+}
+
+.left {
+    float: left;
+    margin-right: 1rem;
+}
+
+.right {
+    float: right;
+    margin-left: 1rem;
+}
+
+p {
+    margin: 2rem 1rem 1rem 1rem;
+}
