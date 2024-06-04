@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Lobster&display=swap");
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    min-height: 200vh;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+header,
+footer {
+    color: white;
+    height: 100px;
+    text-align: center;
+}
+
+header {
+    position: sticky;
+    font-size: 5rem;
+    top: 0;
+}
+
+section {
+    height: 100vh;
+}
+
+footer {
+    position: sticky;
+    background-color: #000;
+    font-size: 3rem;
+    bottom: 0;
+}
+
+
+
+.social {
+    margin-top: 30%;
+    z-index: 1;
+    position: fixed;
+    background-color: royalblue;
+    color: #fff;
+    font-size: inherit;
+    padding: 1rem;
+    position: fixed;
+}
+
+a:visited {
+    color: #fff;
+}
